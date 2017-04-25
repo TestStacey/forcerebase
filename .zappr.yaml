@@ -1,0 +1,7 @@
+pull-request:
+  labels:
+    # pull request cannot be merged without these labels
+    required:
+      - bug
+    # allow additional labels to be present. true is the default..
+    additional: true
