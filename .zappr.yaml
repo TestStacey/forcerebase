@@ -1,3 +1,4 @@
+
 # this is how you configure zappr
 # a more exhaustive description is at
 # https://zappr.readthedocs.io/en/latest/setup
@@ -22,3 +23,12 @@
 #   (you can also specify `orgs` and `users` and define `groups`)
 #   from:
 #     collaborators: true
+=======
+pull-request:
+  labels:
+    # pull request cannot be merged without these labels
+    required:
+      - bug
+    # allow additional labels to be present. true is the default..
+    additional: true
+
